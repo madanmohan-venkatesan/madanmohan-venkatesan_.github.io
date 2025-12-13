@@ -413,6 +413,8 @@ main {
 .contact-info {
   max-width: calc(100% - 46px);
   width: calc(100% - 46px);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .contact-title {
