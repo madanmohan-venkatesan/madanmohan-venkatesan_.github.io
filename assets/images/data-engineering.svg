@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="dataGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357ABD;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Database/Storage -->
+  <ellipse cx="50" cy="30" rx="25" ry="8" fill="url(#dataGrad)" opacity="0.8"/>
+  <path d="M 25 30 Q 25 40 50 40 Q 75 40 75 30" stroke="url(#dataGrad)" stroke-width="2" fill="none"/>
+  <path d="M 25 30 Q 25 50 50 50 Q 75 50 75 30" stroke="url(#dataGrad)" stroke-width="2" fill="none"/>
+  
+  <!-- Data Flow Arrows -->
+  <path d="M 50 50 L 50 70" stroke="#4A90E2" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 30 70 L 70 70" stroke="#4A90E2" stroke-width="2" fill="none"/>
+  <path d="M 30 70 L 20 65" stroke="#4A90E2" stroke-width="2" fill="none"/>
+  <path d="M 30 70 L 20 75" stroke="#4A90E2" stroke-width="2" fill="none"/>
+  <path d="M 70 70 L 80 65" stroke="#4A90E2" stroke-width="2" fill="none"/>
+  <path d="M 70 70 L 80 75" stroke="#4A90E2" stroke-width="2" fill="none"/>
+  
+  <!-- Processing Nodes -->
+  <circle cx="30" cy="85" r="8" fill="#4A90E2" opacity="0.6"/>
+  <circle cx="50" cy="85" r="8" fill="#4A90E2" opacity="0.6"/>
+  <circle cx="70" cy="85" r="8" fill="#4A90E2" opacity="0.6"/>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#4A90E2"/>
+    </marker>
+  </defs>
+</svg>
+
