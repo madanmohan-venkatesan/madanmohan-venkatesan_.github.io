@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- Database Server 1 -->
+  <rect x="2" y="4" width="5" height="6" rx="1" fill="#4A90E2" opacity="0.9"/>
+  <rect x="2.5" y="4.5" width="4" height="1" fill="#2E5C8A"/>
+  <rect x="2.5" y="6" width="4" height="1" fill="#2E5C8A"/>
+  <rect x="2.5" y="7.5" width="4" height="1" fill="#2E5C8A"/>
+  <circle cx="4.5" cy="9.5" r="0.5" fill="#2E5C8A"/>
+  
+  <!-- Database Server 2 -->
+  <rect x="9.5" y="4" width="5" height="6" rx="1" fill="#50C878" opacity="0.9"/>
+  <rect x="10" y="4.5" width="4" height="1" fill="#2E7D4E"/>
+  <rect x="10" y="6" width="4" height="1" fill="#2E7D4E"/>
+  <rect x="10" y="7.5" width="4" height="1" fill="#2E7D4E"/>
+  <circle cx="12" cy="9.5" r="0.5" fill="#2E7D4E"/>
+  
+  <!-- Database Server 3 -->
+  <rect x="17" y="4" width="5" height="6" rx="1" fill="#FF6B6B" opacity="0.9"/>
+  <rect x="17.5" y="4.5" width="4" height="1" fill="#C44D4D"/>
+  <rect x="17.5" y="6" width="4" height="1" fill="#C44D4D"/>
+  <rect x="17.5" y="7.5" width="4" height="1" fill="#C44D4D"/>
+  <circle cx="19.5" cy="9.5" r="0.5" fill="#C44D4D"/>
+  
+  <!-- Connection Lines -->
+  <path d="M7 7 L9.5 7" stroke="#FFA500" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M14.5 7 L17 7" stroke="#FFA500" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Central Hub/Cluster -->
+  <circle cx="12" cy="14" r="3" fill="#9B59B6" opacity="0.8"/>
+  <circle cx="12" cy="14" r="1.5" fill="#FFFFFF"/>
+  
+  <!-- Connection to Hub -->
+  <path d="M4.5 10 L10 12" stroke="#9B59B6" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-dasharray="2,2"/>
+  <path d="M12 10 L12 11" stroke="#9B59B6" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-dasharray="2,2"/>
+  <path d="M19.5 10 L14 12" stroke="#9B59B6" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-dasharray="2,2"/>
+  
+  <!-- Data Flow Indicators -->
+  <circle cx="6" cy="18" r="1" fill="#4A90E2" opacity="0.6"/>
+  <circle cx="9" cy="18" r="1" fill="#50C878" opacity="0.6"/>
+  <circle cx="12" cy="18" r="1" fill="#FF6B6B" opacity="0.6"/>
+  <circle cx="15" cy="18" r="1" fill="#9B59B6" opacity="0.6"/>
+  <circle cx="18" cy="18" r="1" fill="#FFA500" opacity="0.6"/>
+  
+  <!-- High Availability Indicator -->
+  <path d="M12 20 L11 22 L13 22 Z" fill="#50C878"/>
+</svg>
+

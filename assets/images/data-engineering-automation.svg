@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- Source Database -->
+  <rect x="1" y="6" width="4" height="5" rx="0.5" fill="#4A90E2" opacity="0.9"/>
+  <rect x="1.5" y="6.5" width="3" height="0.8" fill="#2E5C8A"/>
+  <rect x="1.5" y="7.8" width="3" height="0.8" fill="#2E5C8A"/>
+  <rect x="1.5" y="9.1" width="3" height="0.8" fill="#2E5C8A"/>
+  
+  <!-- ETL Process Box -->
+  <rect x="7" y="7" width="4" height="3" rx="0.5" fill="#FFA500" opacity="0.9"/>
+  <path d="M8 8.5 L10 8.5" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M8 9.5 L10 9.5" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+  
+  <!-- Target Database -->
+  <rect x="13" y="6" width="4" height="5" rx="0.5" fill="#50C878" opacity="0.9"/>
+  <rect x="13.5" y="6.5" width="3" height="0.8" fill="#2E7D4E"/>
+  <rect x="13.5" y="7.8" width="3" height="0.8" fill="#2E7D4E"/>
+  <rect x="13.5" y="9.1" width="3" height="0.8" fill="#2E7D4E"/>
+  
+  <!-- Data Flow Arrows -->
+  <path d="M5 8.5 L7 8.5" stroke="#4A90E2" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <polygon points="7,8 6.5,7.5 6.5,9.5" fill="#4A90E2"/>
+  
+  <path d="M11 8.5 L13 8.5" stroke="#50C878" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <polygon points="13,8 12.5,7.5 12.5,9.5" fill="#50C878"/>
+  
+  <!-- Replication Nodes -->
+  <circle cx="3" cy="15" r="2" fill="#9B59B6" opacity="0.8"/>
+  <circle cx="3" cy="15" r="1" fill="#FFFFFF"/>
+  <text x="3" y="15.5" font-size="3" fill="#FFFFFF" text-anchor="middle" font-weight="bold">R1</text>
+  
+  <circle cx="12" cy="15" r="2" fill="#9B59B6" opacity="0.8"/>
+  <circle cx="12" cy="15" r="1" fill="#FFFFFF"/>
+  <text x="12" y="15.5" font-size="3" fill="#FFFFFF" text-anchor="middle" font-weight="bold">R2</text>
+  
+  <circle cx="21" cy="15" r="2" fill="#9B59B6" opacity="0.8"/>
+  <circle cx="21" cy="15" r="1" fill="#FFFFFF"/>
+  <text x="21" y="15.5" font-size="3" fill="#FFFFFF" text-anchor="middle" font-weight="bold">R3</text>
+  
+  <!-- Replication Connections -->
+  <path d="M5 15 L10 15" stroke="#9B59B6" stroke-width="1.5" fill="none" stroke-dasharray="2,1"/>
+  <path d="M14 15 L19 15" stroke="#9B59B6" stroke-width="1.5" fill="none" stroke-dasharray="2,1"/>
+  
+  <!-- Automation Gear -->
+  <g transform="translate(12, 20)">
+    <circle r="2.5" fill="#FF6B6B" opacity="0.9"/>
+    <circle r="1.2" fill="#FFFFFF"/>
+    <!-- Gear teeth -->
+    <rect x="-0.3" y="-3" width="0.6" height="1" fill="#FFFFFF"/>
+    <rect x="-0.3" y="2" width="0.6" height="1" fill="#FFFFFF"/>
+    <rect x="-3" y="-0.3" width="1" height="0.6" fill="#FFFFFF"/>
+    <rect x="2" y="-0.3" width="1" height="0.6" fill="#FFFFFF"/>
+    <rect x="-2.1" y="-2.1" width="0.6" height="1" fill="#FFFFFF" transform="rotate(45)"/>
+    <rect x="1.5" y="1.5" width="0.6" height="1" fill="#FFFFFF" transform="rotate(45)"/>
+    <rect x="2.1" y="-2.1" width="0.6" height="1" fill="#FFFFFF" transform="rotate(-45)"/>
+    <rect x="-1.5" y="1.5" width="0.6" height="1" fill="#FFFFFF" transform="rotate(-45)"/>
+  </g>
+  
+  <!-- Data Movement Indicators -->
+  <circle cx="6" cy="20" r="0.8" fill="#4A90E2" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="9" cy="20" r="0.8" fill="#50C878" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="15" cy="20" r="0.8" fill="#FFA500" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="18" cy="20" r="0.8" fill="#9B59B6" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
+

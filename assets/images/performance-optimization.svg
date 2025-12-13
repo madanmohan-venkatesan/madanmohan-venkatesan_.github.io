@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- Speedometer/Gauge Background -->
+  <path d="M12 2 A10 10 0 0 1 22 12" fill="none" stroke="#E0E0E0" stroke-width="2"/>
+  <path d="M12 2 A10 10 0 0 0 2 12" fill="none" stroke="#E0E0E0" stroke-width="2"/>
+  
+  <!-- Performance Zones -->
+  <path d="M12 2 A10 10 0 0 1 18 8" fill="none" stroke="#FF6B6B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M18 8 A10 10 0 0 1 20 12" fill="none" stroke="#FFA500" stroke-width="3" stroke-linecap="round"/>
+  <path d="M20 12 A10 10 0 0 1 18 16" fill="none" stroke="#50C878" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Needle pointing to high performance -->
+  <line x1="12" y1="12" x2="19" y2="5" stroke="#4A90E2" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="12" cy="12" r="1.5" fill="#4A90E2"/>
+  
+  <!-- Performance Chart Bars -->
+  <rect x="2" y="18" width="2.5" height="4" rx="0.5" fill="#FF6B6B" opacity="0.7"/>
+  <rect x="5.5" y="16" width="2.5" height="6" rx="0.5" fill="#FFA500" opacity="0.7"/>
+  <rect x="9" y="14" width="2.5" height="8" rx="0.5" fill="#50C878" opacity="0.7"/>
+  <rect x="12.5" y="12" width="2.5" height="10" rx="0.5" fill="#4A90E2"/>
+  <rect x="16" y="10" width="2.5" height="12" rx="0.5" fill="#9B59B6"/>
+  <rect x="19.5" y="8" width="2.5" height="14" rx="0.5" fill="#50C878"/>
+  
+  <!-- Optimization Arrow -->
+  <path d="M3 15 L5 13 L7 15" stroke="#50C878" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="5" y1="13" x2="5" y2="11" stroke="#50C878" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
+

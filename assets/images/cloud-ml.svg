@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- Cloud Base -->
+  <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" fill="#4A90E2" opacity="0.9"/>
+  <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" fill="#87CEEB" opacity="0.6"/>
+  
+  <!-- Cloud Highlights -->
+  <ellipse cx="14" cy="10" rx="3" ry="2" fill="#FFFFFF" opacity="0.3"/>
+  
+  <!-- Azure Logo Style -->
+  <circle cx="6" cy="6" r="2" fill="#0078D4"/>
+  <path d="M5 5 L7 5 L7 7 L5 7 Z" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- GCP Logo Style -->
+  <circle cx="12" cy="6" r="2" fill="#4285F4"/>
+  <path d="M11 5 L13 5 L13 7 L11 7 Z" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="12" cy="6" r="1" fill="#EA4335"/>
+  
+  <!-- AWS Logo Style -->
+  <circle cx="18" cy="6" r="2" fill="#FF9900"/>
+  <path d="M17 5 L19 5 L19 7 L17 7 Z" fill="#FFFFFF" opacity="0.8"/>
+  <path d="M18 5.5 L18 6.5" stroke="#232F3E" stroke-width="0.5"/>
+  
+  <!-- Machine Learning Neural Network -->
+  <g transform="translate(12, 12)">
+    <!-- Input Layer -->
+    <circle cx="-4" cy="0" r="1.2" fill="#50C878" opacity="0.9"/>
+    <circle cx="-4" cy="-2" r="1.2" fill="#50C878" opacity="0.9"/>
+    <circle cx="-4" cy="2" r="1.2" fill="#50C878" opacity="0.9"/>
+    
+    <!-- Hidden Layer -->
+    <circle cx="0" cy="-1.5" r="1.2" fill="#FF6B6B" opacity="0.9"/>
+    <circle cx="0" cy="0" r="1.2" fill="#FF6B6B" opacity="0.9"/>
+    <circle cx="0" cy="1.5" r="1.2" fill="#FF6B6B" opacity="0.9"/>
+    
+    <!-- Output Layer -->
+    <circle cx="4" cy="0" r="1.2" fill="#9B59B6" opacity="0.9"/>
+    <circle cx="4" cy="-1.5" r="1.2" fill="#9B59B6" opacity="0.9"/>
+    <circle cx="4" cy="1.5" r="1.2" fill="#9B59B6" opacity="0.9"/>
+    
+    <!-- Neural Connections -->
+    <line x1="-2.8" y1="0" x2="-1.2" y2="-1.2" stroke="#FFA500" stroke-width="0.5" opacity="0.6"/>
+    <line x1="-2.8" y1="0" x2="-1.2" y2="0" stroke="#FFA500" stroke-width="0.5" opacity="0.6"/>
+    <line x1="-2.8" y1="0" x2="-1.2" y2="1.2" stroke="#FFA500" stroke-width="0.5" opacity="0.6"/>
+    <line x1="-2.8" y1="-2" x2="-1.2" y2="-1.2" stroke="#FFA500" stroke-width="0.5" opacity="0.6"/>
+    <line x1="-2.8" y1="2" x2="-1.2" y2="1.2" stroke="#FFA500" stroke-width="0.5" opacity="0.6"/>
+    
+    <line x1="1.2" y1="-1.5" x2="2.8" y2="-1.5" stroke="#FFA500" stroke-width="0.5" opacity="0.6"/>
+    <line x1="1.2" y1="0" x2="2.8" y2="0" stroke="#FFA500" stroke-width="0.5" opacity="0.6"/>
+    <line x1="1.2" y1="1.5" x2="2.8" y2="1.5" stroke="#FFA500" stroke-width="0.5" opacity="0.6"/>
+    <line x1="1.2" y1="-1.5" x2="2.8" y2="0" stroke="#FFA500" stroke-width="0.5" opacity="0.6"/>
+    <line x1="1.2" y1="1.5" x2="2.8" y2="0" stroke="#FFA500" stroke-width="0.5" opacity="0.6"/>
+  </g>
+  
+  <!-- Data Platform Indicators -->
+  <rect x="3" y="18" width="3" height="2" rx="0.3" fill="#4A90E2" opacity="0.7"/>
+  <rect x="7" y="18" width="3" height="2" rx="0.3" fill="#50C878" opacity="0.7"/>
+  <rect x="11" y="18" width="3" height="2" rx="0.3" fill="#FF6B6B" opacity="0.7"/>
+  <rect x="15" y="18" width="3" height="2" rx="0.3" fill="#9B59B6" opacity="0.7"/>
+  <rect x="19" y="18" width="3" height="2" rx="0.3" fill="#FFA500" opacity="0.7"/>
+  
+  <!-- ML Model Indicator -->
+  <path d="M10 21 L12 19 L14 21" stroke="#50C878" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
